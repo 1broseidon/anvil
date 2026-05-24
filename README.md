@@ -25,6 +25,22 @@ Boundary -> Risk Class -> Evidence Pack -> Contract Ledger -> Obligations -> Imp
 - **Structural discipline:** named layout families, dependency direction, no bucket packages, and explicit dead-code sweeps
 - **Verification:** repeatable smoke commands, contract checks, tests, and slop gates
 
+## Install
+
+Install from the public GitHub repo with the `skills` CLI:
+
+```bash
+npx skills add 1broseidon/anvil
+```
+
+Or with telemetry disabled:
+
+```bash
+DISABLE_TELEMETRY=1 npx skills add 1broseidon/anvil
+```
+
+The `skills` CLI is documented at [skills.sh](https://skills.sh/docs/cli).
+
 ## Invoke
 
 ```text
