@@ -1,5 +1,14 @@
 # Anvil
 
+> [!IMPORTANT]
+> **This repository has moved.** Anvil now lives in the [`1broseidon/skills`](https://github.com/1broseidon/skills) monorepo.
+>
+> Install it with:
+> ```bash
+> npx skills add 1broseidon/skills --skill anvil
+> ```
+> This standalone repo is archived and no longer updated.
+
 Anvil is a backend craft skill for AI coding agents. It helps agents build, audit, reshape, and study backend boundaries without drifting into generated-looking command trees, vague API contracts, bucket packages, or unverified behavior.
 
 Anvil is language-agnostic and applies to:
